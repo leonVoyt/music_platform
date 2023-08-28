@@ -1,0 +1,50 @@
+.left-bar {
+  display: flex;
+  flex: 0 0 22%;
+  flex-direction: column;
+  background-color: black;
+  hr {
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    margin: 1rem 0;
+  }
+  .left-bar__container {
+    margin: 0 30px;
+  }
+  .left-bar__navigation {
+    display: flex;
+    width: calc(100% - 60px);
+    height: fit-content;
+    margin: 50px 0 20px 0;
+    flex-direction: column;
+    row-gap: 20px;
+    hr {
+      border: 1px solid transparent;
+      margin: 0.2rem 0;
+    }
+    .left-bar__navigation--item {
+      display: flex;
+      column-gap: 20px;
+      align-items: center;
+      opacity: 50%;
+      cursor: pointer;
+      border: 1px solid transparent;
+      padding: 0.5rem;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+      &.current {
+        opacity: 100%;
+      }
+      &:hover {
+        border: 1px solid white;
+      }
+    }
+  }
+  .left-bar--playlists {
+    opacity: 0.6;
+  }
+  a {
+    text-decoration: none;
+  }
+}
