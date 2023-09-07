@@ -18,7 +18,8 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
 }) => {
   const [current, setCurrent] = useState(false)
   const { pathname } = useRouter()
-  console.log(pathname, `${link}`)
+  // console.log(pathname, `${link}`)
+
   useEffect(() => {
     if (pathname === `${link}`) {
       setCurrent(true)

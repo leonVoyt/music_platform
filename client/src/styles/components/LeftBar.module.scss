@@ -18,7 +18,7 @@
     flex-direction: column;
     row-gap: 20px;
     hr {
-      border: 1px solid transparent;
+      border: 1px solid rgba(0, 0, 255, 0.6);
       margin: 0.2rem 0;
     }
     .left-bar__navigation--item {
@@ -29,10 +29,6 @@
       cursor: pointer;
       border: 1px solid transparent;
       padding: 0.5rem;
-      img {
-        width: 25px;
-        height: 25px;
-      }
       &.current {
         opacity: 100%;
       }
@@ -42,7 +38,7 @@
     }
   }
   .left-bar--playlists {
-    opacity: 0.6;
+    opacity: 0.9;
   }
   a {
     text-decoration: none;

@@ -29,17 +29,17 @@ const LeftBar = () => {
             Liked Songs
           </NavigationItem>
         </div>
-        <hr />
+        {/* <hr /> */}
 
-        <div className={classes['left-bar--playlists']}>
-          <h2>Your playlist`s</h2>
+        {/* <div className={classes['left-bar--playlists']}>
+          <h5>Your playlist`s</h5>
           <p>fsdfaasf</p>
           <p>fsdfaasf</p>
           <p>fsdfaasf</p>
           <p>fsdfaasf</p>
           <p>fsdfaasf</p>
           <p>fsdfaasf</p>
-        </div>
+        </div> */}
       </div>
     </div>
   )

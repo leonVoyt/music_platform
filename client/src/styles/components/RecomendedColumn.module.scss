@@ -1,0 +1,18 @@
+.recomended__column {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 3.125rem;
+}
+.recomended__column--text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.recomended__column--list {
+  display: flex;
+  width: 100%;
+  column-gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}

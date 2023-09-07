@@ -1,0 +1,18 @@
+.mix-card {
+  display: flex;
+  flex: 0 0 16%;
+  height: 20rem;
+  background-color: #242424;
+  border-radius: 10px;
+}
+.container {
+  padding: 20px 20px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  img {
+    width: 100%;
+    min-width: 182px;
+    height: 182px;
+  }
+}
